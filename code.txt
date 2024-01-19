@@ -1,0 +1,1 @@
+Set(Uniform(-500,500)), Sample(3), Graph(Density)

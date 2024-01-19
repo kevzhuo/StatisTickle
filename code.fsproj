@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Combinator.fs" />
+    <Compile Include="AST.fs" />
+    <Compile Include="Evaluator.fs" />
+    <Compile Include="Parser.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Stats" Version="0.5.1-preview.1" />
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="Plotly.NET" Version="4.2.0" />
+  </ItemGroup>
+
+</Project>
